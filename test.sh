@@ -1,0 +1,1 @@
+python main.py --output_dir ./gdino_test -c config/cfg_fsc147_vit_b_test.py --eval --datasets config/datasets_fsc147.json --pretrain_model_path ./gdino_train/checkpoint_best_regular.pth --options text_encoder_type=checkpoints/bert-base-uncased

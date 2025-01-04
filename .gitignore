@@ -1,0 +1,17 @@
+# Ignore PyTorch model files
+*.pt
+
+# Ignore other large files
+*.pth
+*.tar
+*.zip
+
+# checkpoints folder
+checkpoints/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore hidden system files
+.DS_Store
+Thumbs.db
